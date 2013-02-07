@@ -10,6 +10,8 @@ Now imagine that you didn't even written that code. Therefore it's important to 
 
 Adding comments where needed, even just to say that a parameter has to be boolean or a string, or sum up the cases in written language. It's maybe time consuming, but debugging misty code can kill kittens!
 
+![Kitten](http://cl.ly/image/3q3u1N1D3I1D/0027.jpg)
+
 ## Commit often & use proper messages
 
 Committing often gives you the power to go back a few steps when needed. Commit related blocks of code.
