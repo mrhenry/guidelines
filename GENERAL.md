@@ -4,7 +4,11 @@
 
 ## Be nice to your collegues
 
-When you write code, you will understand it still a day after, maybe a week or a month after. But after a couple months, it's vague. Now imagine that you didn't even written that code. Therefore it's important to make your code as readable & understandable as possible. Adding comments where needed, even just to say that a parameter has to be boolean or a string, or sum up the cases in written language. It's maybe time consuming, but debugging misty code can kill kittens!
+When you write code, you will understand it still a day after, maybe a week or a month after. But after a couple months, it's vague. 
+
+Now imagine that you didn't even written that code. Therefore it's important to make your code as readable & understandable as possible. 
+
+Adding comments where needed, even just to say that a parameter has to be boolean or a string, or sum up the cases in written language. It's maybe time consuming, but debugging misty code can kill kittens!
 
 ## Commit often & use proper messages
 
