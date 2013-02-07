@@ -14,12 +14,12 @@ Using proper commit messages can help debugging. Let's say you remember that eve
 
 ### How to commit message
 
-x - ""
-x - "Updated"
-x - "Updated header"
+✗ — ""
+✗ — "Updated"
+✗ — "Updated header"
 
-✓ - "Nugded that header a few pixels up, updated jQuery plugin tralala to version x.x.x"
-✓ - "Goddamn client wants me to change that thing again, I've now implemented a way that we can do blablabla"
+✓ — "Nugded that header a few pixels up, updated jQuery plugin tralala to version x.x.x"
+✓ — "Goddamn client wants me to change that thing again, I've now implemented a way that we can do blablabla"
 
 
 ## Variable names
