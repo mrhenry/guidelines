@@ -35,7 +35,7 @@ Using proper commit messages can help debugging. Let's say you remember that eve
 
 ## Variable names
 
-✓ — Variable names should NEVER be acronims.
+✓ — Variable names should NEVER be acronyms.
 
 ✓ — They must scale with the lifetime of the value.
 
