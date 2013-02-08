@@ -35,9 +35,20 @@ Using proper commit messages can help debugging. Let's say you remember that eve
 
 ## Variable names
 
-✓ — Variable names should NEVER be acronyms.
+Variable names (all identifiers, really) should always be descriptive.
+There is no sense in using *letters*, *acronyms* or *abbreviations*.  
+Don't try to be clever!  
+Don't try to make your code *small*!  
+There are **no** performance benefits in using shorter-than-necessary names.
 
-✓ — They must scale with the lifetime of the value.
+
+✗ — Letters
+
+✗ — Acronyms
+
+✗ — Abbreviations
+
+✓ — Length scales with scope
 
 Short lifetime:
 - loop index counters can be called (`i`, `j`, `k`)
