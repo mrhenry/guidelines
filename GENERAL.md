@@ -97,3 +97,13 @@ def render_comments_for_blog_post(post)
   # ...
 end
 ```
+
+## External dependencies (Gems, CommonJS packages, jQuery plugins, (S)CSS libraries)
+
+✗ — Never add a dependecy unless you REALLY nead it.
+
+✗ — Never, ever, use *micro plugins/gems/packages* ... **NOT EVER**
+
+✓ — Use as few as possible external dependecies.
+
+✓ — If you can, write it yourself.
