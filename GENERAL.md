@@ -50,11 +50,24 @@ There are **no** performance benefits in using shorter-than-necessary names.
 
 ✓ — Length scales with scope
 
-Short lifetime:
+### The length-scope relation
+
+Short scope:
 - loop index counters can be called (`i`, `j`, `k`)
 
 ```js
 for (var i = 0; i < 100; i++) {
+  # ...
+}
+```
+
+Medium scope:
+- variable names inside methods/functions
+
+```js
+function example_function() {
+  var posts,
+      authors;
   # ...
 }
 ```
@@ -64,4 +77,13 @@ Long lifetime:
 - constants
 - class/module names
 - method names
-- variable names inside methods/functions
+
+```ruby
+GOOGLE_ANALYTICS_API_KEY = ""
+
+class Event::Location
+end
+
+def render_comments_for_blog_post(post)
+end
+```
