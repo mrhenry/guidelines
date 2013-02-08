@@ -67,7 +67,8 @@ for (var i = 0; i < 100; i++) {
 - `x`, `y`, `z` for dealing with coordinate spaces.
 - `m`, `n` for dealing with opaque members of a collection. (opaque here means that you will not be using the member itself).
 
-Medium scope:
+#### Medium scope:
+
 - variable names inside methods/functions
 
 ```js
@@ -78,7 +79,8 @@ function example_function() {
 }
 ```
 
-Long lifetime:
+#### Long lifetime
+
 - global variables
 - constants
 - class/module names
