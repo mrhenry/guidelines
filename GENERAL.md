@@ -52,7 +52,8 @@ There are **no** performance benefits in using shorter-than-necessary names.
 
 ### The length-scope relation
 
-Short scope:
+#### Short scope:
+
 - loop index counters can be called (`i`, `j`, `k`)
 
 ```js
@@ -60,6 +61,11 @@ for (var i = 0; i < 100; i++) {
   # ...
 }
 ```
+
+**Note:** The only allowed *letter identifers* are:
+- `i`, `j`, `k` for loop counters
+- `x`, `y`, `z` for dealing with coordinate spaces.
+- `m`, `n` for dealing with opaque members of a collection. (opaque here means that you will not be using the member itself).
 
 Medium scope:
 - variable names inside methods/functions
