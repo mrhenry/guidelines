@@ -58,7 +58,7 @@ There are **no** performance benefits in using shorter-than-necessary names.
 
 ```js
 for (var i = 0; i < 100; i++) {
-  # ...
+  // ...
 }
 ```
 
@@ -75,7 +75,7 @@ for (var i = 0; i < 100; i++) {
 function example_function() {
   var posts,
       authors;
-  # ...
+  // ...
 }
 ```
 
@@ -87,11 +87,13 @@ function example_function() {
 - method names
 
 ```ruby
-GOOGLE_ANALYTICS_API_KEY = ""
+GOOGLE_ANALYTICS_API_KEY = "..."
 
 class Event::Location
+  # ...
 end
 
 def render_comments_for_blog_post(post)
+  # ...
 end
 ```
