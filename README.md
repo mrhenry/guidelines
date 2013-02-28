@@ -4,9 +4,9 @@
 
 ## INDEX
 
-[![General](http://cambelt.co/150x150/General?font=Questrial)](GENERAL.md)
-[![General](http://cambelt.co/150x150/Javascript?font=Questrial)](JAVASCRIPT.md)
-[![CSS](http://cambelt.co/150x150/CSS?font=Questrial)](CSS.md)
+[![General](http://cambelt.co/150x150/General?font=Questrial&font_size=20)](GENERAL.md)
+[![Javascript](http://cambelt.co/150x150/Javascript?font=Questrial&font_size=20)](JAVASCRIPT.md)
+[![SCSS](http://cambelt.co/150x150/SCSS?font=Questrial&font_size=20)](SCSS.md)
 
 
 ## RULES
