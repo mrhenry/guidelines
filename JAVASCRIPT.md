@@ -26,3 +26,8 @@ var my_nice_and_descriptive_variable = "Hello World";
 ✗ — if ( !(typeof foo === "undefined" ) )
 
 ✓ — if ( foo !== undefined )
+
+
+## Functions
+
+[Best function explanation ever](http://markdaggett.com/blog/2013/02/15/functions-explained)
