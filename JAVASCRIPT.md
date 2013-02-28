@@ -19,3 +19,10 @@ var my_nice_and_descriptive_variable = "Hello World";
 ✗ — Never use global variables. ALWAYS use the `var` statement! (Or, I, @fd, will make you suffer.)
 
 ✗ — Never include micro-jQuery-plugins. If you can write it in 20 LOC, write it your self.
+
+
+## Conditions
+
+✗ — if ( !(typeof foo === "undefined" ) )
+
+✓ — if ( typeof foo !== undefined )
