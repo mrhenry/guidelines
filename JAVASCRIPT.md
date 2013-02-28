@@ -25,4 +25,4 @@ var my_nice_and_descriptive_variable = "Hello World";
 
 ✗ — if ( !(typeof foo === "undefined" ) )
 
-✓ — if ( typeof foo !== undefined )
+✓ — if ( typeof foo !== "undefined" )
