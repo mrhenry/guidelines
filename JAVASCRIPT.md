@@ -23,9 +23,9 @@ var my_nice_and_descriptive_variable = "Hello World";
 
 ## Conditions
 
-✗ — if ( !(typeof foo === "undefined" ) )
+✗ — ``if ( !(typeof foo === "undefined" ) )``
 
-✓ — if ( foo !== undefined )
+✓ — ``if ( foo !== undefined )``
 
 
 ## Functions
