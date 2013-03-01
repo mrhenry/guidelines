@@ -27,7 +27,7 @@ One of the eyeopeners we had last year was that styling by page can work in smal
 
 Always specify which property you want to animate.
 
-✗ — @include transition(all 300ms);
+✗ — ``@include transition(all 300ms);``
 
-✓ — @include transition(background-color 300ms, width 300ms);
+✓ — ``@include transition(background-color 300ms, width 300ms);``
 
