@@ -45,6 +45,7 @@ Readability is king. Try to keep up with these formatting rules, because they ca
 	background-color: white;
 	background-image: url('/logo.png');
 	background-size: cover;
+	margin: 0 0 10px 0;
 }
 ```
 
