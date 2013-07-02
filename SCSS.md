@@ -69,6 +69,15 @@ Readability is king. Try to keep up with these formatting rules, because they ca
 }
 ```
 
+```css
+// Declare your variables in the correct scope
+$body_text_color: red; // Global
+
+.selector {
+	$body_text_color: blue; // Only in scope of .selector
+}
+```
+
 
 ### Transitions
 
