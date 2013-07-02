@@ -28,7 +28,7 @@ One of the eyeopeners we had last year was that styling by page can work in smal
 
 Readability is king. Try to keep up with these formatting rules, because they can make everybody's life a lot easier.
 
-```css
+```scss
 // Every property on a new line & sort them alphabetically.
 // Always a space between : and the property.
 .selector {
@@ -39,7 +39,7 @@ Readability is king. Try to keep up with these formatting rules, because they ca
 }
 ```
 
-```css
+```scss
 // Try to avoid shorthands, except for margin & padding.
 .selector {
 	background-color: white;
@@ -49,14 +49,14 @@ Readability is king. Try to keep up with these formatting rules, because they ca
 }
 ```
 
-```css
+```scss
 // Always end your property with ;
 .selector {
 	background-color: white;
 }
 ```
 
-```css
+```scss
 // Includes & extends always in the beginning. Except when you explicitly want to do it after, but then comment why. 
 .selector {
 	@include border-radius(50%);
@@ -69,7 +69,7 @@ Readability is king. Try to keep up with these formatting rules, because they ca
 }
 ```
 
-```css
+```scss
 // Declare your variables in the correct scope
 $body_text_color: red; // Global
 
