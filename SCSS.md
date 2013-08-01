@@ -40,6 +40,31 @@ Readability is king. Try to keep up with these formatting rules, because they ca
 ```
 
 ```scss
+// Keep properties of a selector together to avoid redeclaration somewhere else.
+
+// Don't do this
+.selector {
+	background-color: white;
+	color: black;
+	padding-bottom: 0;
+	padding-top: 10px;
+}
+
+.selector {
+	margin: 0 auto;
+}
+
+// But do this
+.selector {
+	background-color: white;
+	color: black;
+	margin: 0 auto;
+	padding-bottom: 0;
+	padding-top: 10px;
+}
+```
+
+```scss
 // Try to avoid shorthands, except for margin & padding.
 .selector {
 	background-color: white;
