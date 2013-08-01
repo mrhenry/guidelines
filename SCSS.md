@@ -112,3 +112,8 @@ Always specify which property you want to animate.
 
 ✓ — ``@include transition(background-color 300ms, width 300ms);``
 
+✓
+```scss
+@include transition-property(background-color, width);
+@include transition-timing-function(300ms);
+```
