@@ -103,6 +103,9 @@ $body_text_color: red; // Global
 }
 ```
 
+### Use Compass mixins
+
+The whole list of available Compass mixins: [http://compass-style.org/index/mixins/](http://compass-style.org/index/mixins/)
 
 ### Transitions
 
