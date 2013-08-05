@@ -30,7 +30,7 @@ var my_nice_and_descriptive_variable = "Hello World";
 
 ## Comments
 
-Always document your code in human understandable language. Try to write what your function / module is doing. If a function excepts paramaters and/or returns a value, describe what these are for & what you intended them to be.
+Always document your code in human understandable language. Try to write what your function / module is doing. If a function excepts paramaters and/or returns a value, describe what these are for & what you intended them to be. Use the [JSDoc syntax](http://en.wikipedia.org/wiki/JSDoc) as a reference.
 
 If you use Sublime Text, you can install this plugin to make this easier:  
 [https://github.com/spadgos/sublime-jsdocs](https://github.com/spadgos/sublime-jsdocs)
