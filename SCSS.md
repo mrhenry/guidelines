@@ -103,6 +103,15 @@ $body_text_color: red; // Global
 }
 ```
 
+```scss
+// List your combined selectors on a new line
+.selector-1, 
+.selector-2,
+.selector-3 {
+	$body_text_color: blue; // Only in scope of .selector
+}
+```
+
 ### Use Compass mixins
 
 The whole list of available Compass mixins: [http://compass-style.org/index/mixins/](http://compass-style.org/index/mixins/)
