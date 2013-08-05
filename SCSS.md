@@ -82,7 +82,9 @@ Readability is king. Try to keep up with these formatting rules, because they ca
 ```
 
 ```scss
-// Includes & extends always in the beginning. Except when you explicitly want to do it after, but then comment why. 
+// Includes & extends always in the beginning.
+// This to avoid overwritings of your properties in these extends or mixin's
+// Except when you explicitly want to do it after, but then comment why.
 .selector {
 	@include border-radius(50%);
 	@include transition(opacity 300ms);
