@@ -14,11 +14,11 @@ console.log("Hello World");
 var my_nice_and_descriptive_variable = "Hello World";
 ```
 
-✓ — When working on a Mr. Henry project, ALWAYS use Hanging Gardens to manage your javascript dependencies.
+✓ — When working on a Mr. Henry project, ALWAYS use CommonJS to manage your javascript dependencies.
 
 ✗ — Never use global variables. ALWAYS use the `var` statement! (Or, I, @fd, will make you suffer.)
 
-✗ — Never include micro-jQuery-plugins. If you can write it in 20 LOC, write it your self.
+✗ — Never include micro-jQuery-plugins. If you can write it in 20 LOC, write it yourself.
 
 
 ## Conditions
@@ -26,6 +26,11 @@ var my_nice_and_descriptive_variable = "Hello World";
 ✗ — ``if ( !(typeof foo === "undefined" ) )``
 
 ✓ — ``if ( foo !== undefined )``
+
+
+## Comments
+
+Always document your code in human understandable language. Try to write what your function / module is doing. If a function excepts paramaters and/or returns a value, describe what these are for & what you intended to be.
 
 
 ## Functions
